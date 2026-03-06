@@ -1,1 +1,5 @@
+idade = 29
+peso = 70
 
+
+print(idade), print(peso), print("sua mãe é:", "Glaucia")
