@@ -4,15 +4,16 @@ mais_velho = 0
 atacantes_10000 = 0
 qtd_atacantes = 0
 qtd_defensores = 0
+i = 1
 
-for i in range(10):
+while i <= 10:
     idade = int(input("Digite a idade do jogador: "))
     posicao = input("Digite a posição (A para atacante / D para defensor): ")
     salario = float(input("Digite o salário do jogador: "))
 
     soma_salarios = soma_salarios + salario
 
-    if i == 0:
+    if i == 1:
         mais_novo = idade
         mais_velho = idade
     else:
@@ -30,6 +31,8 @@ for i in range(10):
 
     elif posicao == "D":
         qtd_defensores = qtd_defensores + 1
+
+    i = i + 1
 
 media_salarios = soma_salarios / 10
 
