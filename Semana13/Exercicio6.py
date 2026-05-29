@@ -1,4 +1,4 @@
-#Soma de fazendas. Crie dois arrays do mesmo tamanho com produções inteiras (kg) de Fazenda A e Fazenda B. 
+#Soma de fazendas. Crie dois arrays do mesmo tamanho com produções inteiras (kg) de Fazenda A e Fazenda B.
 #Gere um terceiro array com a soma elemento a elemento (produção total por posição/lote).
 
 def ler_fazenda(nome, tamanho):
